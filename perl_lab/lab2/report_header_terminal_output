@@ -1,0 +1,10 @@
+Report : timing
+	-path_type full
+	-delay_type max
+	-nworst 200
+	-slack_lesser_than 0.000
+	-max_paths 200
+	-sort_by slack
+Design : ORCA
+Version: H-2013.06-SP2
+Date   : Fri Dec 25 15:33:05 2015

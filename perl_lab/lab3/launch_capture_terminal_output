@@ -1,0 +1,27 @@
+Launch edge - SYS_CLK : 0.000
+Capture edge - SYS_CLK : 8.000
+
+Launch edge - PCLK : 0.000
+Capture edge - PCLK : 9.000
+
+Launch edge - HCLK : 0.000
+Capture edge - HCLK : 10.000
+
+Launch edge - SDRAM_CLK : 0.000
+Capture edge - SDRAM_CLK : 4.000
+
+Launch edge - SYS_CLK : 0.000
+Capture edge - SYS_CLK : 8.000
+
+Launch edge - HCLK : 0.000
+Capture edge - HCLK : 8.000
+
+Launch edge - PCLK : 0.000
+Capture edge - PCLK : 8.000
+
+Launch edge - SYS_2x_CLK : 0.000
+Capture edge - SYS_2x_CLK : 16.000
+
+Launch edge - SDRAM_CLK : 0.000
+Capture edge - SDRAM_CLK : 4.000
+

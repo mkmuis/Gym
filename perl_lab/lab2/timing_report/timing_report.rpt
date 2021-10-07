@@ -1,0 +1,63 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-nworst 200
+	-slack_lesser_than 0.000
+	-max_paths 200
+	-sort_by slack
+Design : ORCA
+Version: H-2013.06-SP2
+Date   : Fri Dec 25 15:33:05 2015
+****************************************
+
+
+  Startpoint: I_ORCA_TOP/I_BLENDER/s3_op2_reg[17]
+               (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: I_ORCA_TOP/I_BLENDER/s4_op2_reg[15]
+               (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Path Group: SYS_CLK
+  Path Type: max
+  Max Data Paths Derating Factor  : 1.100
+
+  Point                                                              Incr       Path
+  -----------------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                         0.000      0.000
+  clock network delay (propagated)                                  2.612      2.612
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg[17]/CP (sdnrb1)                   0.000      2.612 r
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg[17]/Q (sdnrb1)                    0.453      3.065 f
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg_17_ASTipoInst68/Z (buffd1)        0.167      3.233 f
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg_17_ASTtsInst736/Z (dl02d2)        2.239      5.472 f
+  I_ORCA_TOP/I_BLENDER/IU482/CO (ad01d0)                            0.373      5.846 f
+  I_ORCA_TOP/I_BLENDER/IU824/CO (ad01d0)                            0.301      6.146 f
+  I_ORCA_TOP/I_BLENDER/IU1134/CO (ad01d0)                           0.301      6.448 f
+  I_ORCA_TOP/I_BLENDER/IU1433/CO (ad01d0)                           0.301      6.749 f
+  I_ORCA_TOP/I_BLENDER/IU1702/CO (ad01d0)                           0.301      7.050 f
+  I_ORCA_TOP/I_BLENDER/IU1962/CO (ad01d0)                           0.301      7.352 f
+  I_ORCA_TOP/I_BLENDER/IU2194/CO (ad01d0)                           0.301      7.653 f
+  I_ORCA_TOP/I_BLENDER/IU2412/CO (ad01d0)                           0.301      7.954 f
+  I_ORCA_TOP/I_BLENDER/IU2602/CO (ad01d0)                           0.301      8.255 f
+  I_ORCA_TOP/I_BLENDER/IU2782/CO (ad01d0)                           0.301      8.557 f
+  I_ORCA_TOP/I_BLENDER/IU2932/CO (ad01d0)                           0.301      8.858 f
+  I_ORCA_TOP/I_BLENDER/IU3072/CO (ad01d0)                           0.301      9.159 f
+  I_ORCA_TOP/I_BLENDER/IU3183/CO (ad01d0)                           0.301      9.460 f
+  I_ORCA_TOP/I_BLENDER/IU3283/CO (ad01d0)                           0.255      9.715 f
+  I_ORCA_TOP/I_BLENDER/U18/Z (xr03d1)                               0.450     10.165 f
+  I_ORCA_TOP/I_BLENDER/U544/Z (aor222d1)                            0.283     10.448 f
+  I_ORCA_TOP/I_BLENDER/s4_op2_reg[15]/D (sdnrb1)                    0.000     10.448 f
+  data arrival time                                                           10.448
+
+  clock SYS_CLK (rise edge)                                         8.000      8.000
+  clock network delay (propagated)                                  2.611     10.611
+  I_ORCA_TOP/I_BLENDER/s4_op2_reg[15]/CP (sdnrb1)                             10.611 r
+  library setup time                                               -0.168     10.443
+  data required time                                                          10.443
+  -----------------------------------------------------------------------------------------
+  data required time                                                          10.443
+  data arrival time                                                          -10.448
+  -----------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.005
+
+
+1
+

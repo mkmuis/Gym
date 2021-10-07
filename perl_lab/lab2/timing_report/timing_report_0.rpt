@@ -1,0 +1,184 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-nets
+	-nworst 200
+	-slack_lesser_than 0.000
+	-max_paths 200
+	-capacitance
+	-sort_by slack
+Design : ORCA0
+Version: H-2013.06-SP2
+Date   : Mon Dec 14 13:53:46 2015
+****************************************
+
+
+  Startpoint: a[0]
+               (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: b[1]
+               (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Path Group: SYS_CLK
+  Path Type: max
+  Max Data Paths Derating Factor  : 1.100
+
+  Point                                                      Fanout    Cap       Incr       Path
+  -------------------------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                                     0.000      0.000
+  clock network delay (propagated)                                              2.832 *    2.832
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg[18]/CP (sdnrb1)                               0.000      2.832 r
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg[18]/Q (sdnrb1)                                0.408 *    3.240 r
+  I_ORCA_TOP/I_BLENDER/s3_op2[18] (net)                         1    0.009 
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg_18_ASTipoInst731/Z (bufbd7)                   0.169 *    3.408 r
+  I_ORCA_TOP/I_BLENDER/s3_op2_18_ASTipoNet478 (net)             5    0.046 
+  I_ORCA_TOP/I_BLENDER/U821/ZN (xn02d1)                                         0.495 *    3.904 f
+  I_ORCA_TOP/I_BLENDER/NU4073_1_ (net)                         10    0.050 
+  I_ORCA_TOP/I_BLENDER/U142/ZN (nd02d0)                                         0.479 *    4.382 r
+  I_ORCA_TOP/I_BLENDER/N1452 (net)                              8    0.040 
+  I_ORCA_TOP/I_BLENDER/U142ASTipoInst26/Z (buffd2)                              0.373 *    4.756 r
+  I_ORCA_TOP/I_BLENDER/N1452ASThfnNet13 (net)                  11    0.057 
+  I_ORCA_TOP/I_BLENDER/IU141/ZN (oai22d1)                                       0.339 *    5.095 f
+  I_ORCA_TOP/I_BLENDER/N1193 (net)                              1    0.007 
+  I_ORCA_TOP/I_BLENDER/IU4191/S (ah01d0)                                        0.306 *    5.401 f
+  I_ORCA_TOP/I_BLENDER/N12371 (net)                             1    0.010 
+  I_ORCA_TOP/I_BLENDER/IU4212/CO (ad01d0)                                       0.317 *    5.718 f
+  I_ORCA_TOP/I_BLENDER/N1392 (net)                              1    0.010 
+  I_ORCA_TOP/I_BLENDER/IU4272/CO (ad01d0)                                       0.361 *    6.079 f
+  I_ORCA_TOP/I_BLENDER/N12541 (net)                             1    0.014 
+  I_ORCA_TOP/I_BLENDER/U3311/S (ad01d0)                                         0.525 *    6.604 f
+  I_ORCA_TOP/I_BLENDER/NU4318 (net)                             2    0.010 
+  I_ORCA_TOP/I_BLENDER/IU1081/ZN (nr02d0)                                       0.111 *    6.716 r
+  I_ORCA_TOP/I_BLENDER/N15341 (net)                             1    0.005 
+  I_ORCA_TOP/I_BLENDER/U3410/ZN (inv0d1)                                        0.125 *    6.841 f
+  I_ORCA_TOP/I_BLENDER/N14221 (net)                             3    0.013 
+  I_ORCA_TOP/I_BLENDER/IU1094/ZN (aoi21d1)                                      0.240 *    7.080 r
+  I_ORCA_TOP/I_BLENDER/N998 (net)                               1    0.004 
+  I_ORCA_TOP/I_BLENDER/IU10961/ZN (oai21d1)                                     0.238 *    7.319 f
+  I_ORCA_TOP/I_BLENDER/N1000 (net)                              1    0.004 
+  I_ORCA_TOP/I_BLENDER/U80/ZN (aoi21d1)                                         0.359 *    7.677 r
+  I_ORCA_TOP/I_BLENDER/N1345 (net)                              4    0.020 
+  I_ORCA_TOP/I_BLENDER/U2611/ZN (oai21d1)                                       0.300 *    7.977 f
+  I_ORCA_TOP/I_BLENDER/N1414 (net)                              2    0.009 
+  I_ORCA_TOP/I_BLENDER/IU1467/ZN (aoi21d1)                                      0.274 *    8.251 r
+  I_ORCA_TOP/I_BLENDER/N1083 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U62/ZN (oai21d1)                                         0.299 *    8.550 f
+  I_ORCA_TOP/I_BLENDER/N1090 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U2311/ZN (aoi21d1)                                       0.268 *    8.818 r
+  I_ORCA_TOP/I_BLENDER/N1097 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U72/ZN (oai21d1)                                         0.284 *    9.102 f
+  I_ORCA_TOP/I_BLENDER/N1105 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U2411/ZN (aoi21d1)                                       0.292 *    9.394 r
+  I_ORCA_TOP/I_BLENDER/N1112 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U2100/ZN (oai21d1)                                       0.280 *    9.675 f
+  I_ORCA_TOP/I_BLENDER/N1120 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U82/ZN (aoi21d1)                                         0.265 *    9.940 r
+  I_ORCA_TOP/I_BLENDER/N15311 (net)                             2    0.011 
+  I_ORCA_TOP/I_BLENDER/U2511/ZN (oai21d1)                                       0.266 *   10.205 f
+  I_ORCA_TOP/I_BLENDER/N11341 (net)                             1    0.010 
+  I_ORCA_TOP/I_BLENDER/U110/CO (ad01d0)                                         0.291 *   10.496 f
+  I_ORCA_TOP/I_BLENDER/N510 (net)                               1    0.010 
+  I_ORCA_TOP/I_BLENDER/U5100/CO (ad01d0)                                        0.248 *   10.744 f
+  I_ORCA_TOP/I_BLENDER/N15361 (net)                             1    0.004 
+  I_ORCA_TOP/I_BLENDER/U2211/Z (xr03d1)                                         0.266 *   11.010 f
+  I_ORCA_TOP/I_BLENDER/____return1072[31] (net)                 1    0.005 
+  I_ORCA_TOP/I_BLENDER/U526/Z (aor222d1)                                        0.372 *   11.382 f
+  I_ORCA_TOP/I_BLENDER/s4_op2918[31] (net)                      1    0.005 
+  I_ORCA_TOP/I_BLENDER/s4_op2_reg[31]/D (sdnrb1)                                0.000 *   11.382 f
+  data arrival time                                                                       11.382
+
+  clock SYS_CLK (rise edge)                                                     8.000      8.000
+  clock network delay (propagated)                                              2.831 *   10.831
+  I_ORCA_TOP/I_BLENDER/s4_op2_reg[31]/CP (sdnrb1)                                         10.831 r
+  library setup time                                                           -0.169 *   10.663
+  data required time                                                                      10.663
+  -------------------------------------------------------------------------------------------------
+  data required time                                                                      10.663
+  data arrival time                                                                      -11.382
+  -------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.719
+
+
+  Startpoint: a[3]
+               (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: b[3]
+               (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Path Group: SYS_CLK
+  Path Type: max
+  Max Data Paths Derating Factor  : 1.100
+
+  Point                                                      Fanout    Cap       Incr       Path
+  -------------------------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                                     0.000      0.000
+  clock network delay (propagated)                                              2.832 *    2.832
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg[18]/CP (sdnrb1)                               0.000      2.832 r
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg[18]/Q (sdnrb1)                                0.409 *    3.241 f
+  I_ORCA_TOP/I_BLENDER/s3_op2[18] (net)                         1    0.009 
+  I_ORCA_TOP/I_BLENDER/s3_op2_reg_18_ASTipoInst731/Z (bufbd7)                   0.161 *    3.402 f
+  I_ORCA_TOP/I_BLENDER/s3_op2_18_ASTipoNet478 (net)             5    0.046 
+  I_ORCA_TOP/I_BLENDER/U821/ZN (xn02d1)                                         0.496 *    3.898 f
+  I_ORCA_TOP/I_BLENDER/NU4073_1_ (net)                         10    0.050 
+  I_ORCA_TOP/I_BLENDER/U142/ZN (nd02d0)                                         0.479 *    4.377 r
+  I_ORCA_TOP/I_BLENDER/N1452 (net)                              8    0.040 
+  I_ORCA_TOP/I_BLENDER/U142ASTipoInst26/Z (buffd2)                              0.373 *    4.750 r
+  I_ORCA_TOP/I_BLENDER/N1452ASThfnNet13 (net)                  11    0.057 
+  I_ORCA_TOP/I_BLENDER/IU141/ZN (oai22d1)                                       0.339 *    5.089 f
+  I_ORCA_TOP/I_BLENDER/N1193 (net)                              1    0.007 
+  I_ORCA_TOP/I_BLENDER/IU4191/S (ah01d0)                                        0.306 *    5.395 f
+  I_ORCA_TOP/I_BLENDER/N12371 (net)                             1    0.010 
+  I_ORCA_TOP/I_BLENDER/IU4212/CO (ad01d0)                                       0.317 *    5.712 f
+  I_ORCA_TOP/I_BLENDER/N1392 (net)                              1    0.010 
+  I_ORCA_TOP/I_BLENDER/IU4272/S (ad01d0)                                        0.454 *    6.166 f
+  I_ORCA_TOP/I_BLENDER/N12531 (net)                             1    0.010 
+  I_ORCA_TOP/I_BLENDER/U3610/S (ad01d0)                                         0.450 *    6.616 f
+  I_ORCA_TOP/I_BLENDER/NU4287 (net)                             2    0.010 
+  I_ORCA_TOP/I_BLENDER/IU1034/ZN (nd02d1)                                       0.134 *    6.750 r
+  I_ORCA_TOP/I_BLENDER/N1402 (net)                              3    0.013 
+  I_ORCA_TOP/I_BLENDER/IU1046/ZN (inv0d1)                                       0.072 *    6.822 f
+  I_ORCA_TOP/I_BLENDER/N15261 (net)                             1    0.004 
+  I_ORCA_TOP/I_BLENDER/IU1094/ZN (aoi21d1)                                      0.241 *    7.063 r
+  I_ORCA_TOP/I_BLENDER/N998 (net)                               1    0.004 
+  I_ORCA_TOP/I_BLENDER/IU10961/ZN (oai21d1)                                     0.238 *    7.301 f
+  I_ORCA_TOP/I_BLENDER/N1000 (net)                              1    0.004 
+  I_ORCA_TOP/I_BLENDER/U80/ZN (aoi21d1)                                         0.359 *    7.660 r
+  I_ORCA_TOP/I_BLENDER/N1345 (net)                              4    0.020 
+  I_ORCA_TOP/I_BLENDER/U2611/ZN (oai21d1)                                       0.300 *    7.960 f
+  I_ORCA_TOP/I_BLENDER/N1414 (net)                              2    0.009 
+  I_ORCA_TOP/I_BLENDER/IU1467/ZN (aoi21d1)                                      0.274 *    8.234 r
+  I_ORCA_TOP/I_BLENDER/N1083 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U62/ZN (oai21d1)                                         0.299 *    8.533 f
+  I_ORCA_TOP/I_BLENDER/N1090 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U2311/ZN (aoi21d1)                                       0.268 *    8.801 r
+  I_ORCA_TOP/I_BLENDER/N1097 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U72/ZN (oai21d1)                                         0.284 *    9.085 f
+  I_ORCA_TOP/I_BLENDER/N1105 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U2411/ZN (aoi21d1)                                       0.292 *    9.377 r
+  I_ORCA_TOP/I_BLENDER/N1112 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U2100/ZN (oai21d1)                                       0.280 *    9.657 f
+  I_ORCA_TOP/I_BLENDER/N1120 (net)                              2    0.011 
+  I_ORCA_TOP/I_BLENDER/U82/ZN (aoi21d1)                                         0.265 *    9.922 r
+  I_ORCA_TOP/I_BLENDER/N15311 (net)                             2    0.011 
+  I_ORCA_TOP/I_BLENDER/U2511/ZN (oai21d1)                                       0.266 *   10.188 f
+  I_ORCA_TOP/I_BLENDER/N11341 (net)                             1    0.010 
+  I_ORCA_TOP/I_BLENDER/U110/CO (ad01d0)                                         0.291 *   10.479 f
+  I_ORCA_TOP/I_BLENDER/N510 (net)                               1    0.010 
+  I_ORCA_TOP/I_BLENDER/U5100/CO (ad01d0)                                        0.248 *   10.727 f
+  I_ORCA_TOP/I_BLENDER/N15361 (net)                             1    0.004 
+  I_ORCA_TOP/I_BLENDER/U2211/Z (xr03d1)                                         0.266 *   10.993 f
+  I_ORCA_TOP/I_BLENDER/____return1072[31] (net)                 1    0.005 
+  I_ORCA_TOP/I_BLENDER/U526/Z (aor222d1)                                        0.372 *   11.365 f
+  I_ORCA_TOP/I_BLENDER/s4_op2918[31] (net)                      1    0.005 
+  I_ORCA_TOP/I_BLENDER/s4_op2_reg[31]/D (sdnrb1)                                0.000 *   11.365 f
+  data arrival time                                                                       11.365
+
+  clock SYS_CLK (rise edge)                                                     8.000      8.000
+  clock network delay (propagated)                                              2.831 *   10.831
+  I_ORCA_TOP/I_BLENDER/s4_op2_reg[31]/CP (sdnrb1)                                         10.831 r
+  library setup time                                                           -0.169 *   10.663
+  data required time                                                                      10.663
+  -------------------------------------------------------------------------------------------------
+  data required time                                                                      10.663
+  data arrival time                                                                      -11.365
+  -------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.702
+
+1
